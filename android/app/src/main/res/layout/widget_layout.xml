@@ -1,0 +1,93 @@
+<!-- <FrameLayout
+    android:id="@+id/widget_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:layout_width="180dp"
+    android:layout_height="110dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1f303d">
+
+    <TextView
+        android:id="@+id/widget_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/widget_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Message" />
+    
+    </RelativeLayout>
+</FrameLayout> -->
+
+<FrameLayout
+    android:id="@+id/widget_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="210dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ccffcc">
+
+        <TextView
+            android:id="@+id/lname0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="--"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/lname1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="--"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/lname2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="--"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/lname3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="--"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/lname4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="--"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/lname5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="--"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+</FrameLayout>
